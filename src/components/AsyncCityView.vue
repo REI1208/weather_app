@@ -4,7 +4,7 @@
 
         <div v-if="route.query.preview" class=" text-white p-4 
         bg-weather-secondary w-full text-center">
-            <p>previewing the city</p>
+            <p>浏览中，保存清点右上角加号</p>
         </div>
 
         <!-- weather overview -->

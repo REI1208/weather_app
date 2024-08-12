@@ -19,33 +19,26 @@
 
       <BaseModel :modalActive="modalActive" @close-modal="toggleModal">
         <div class="text-black">
-          <h1 class="text-2xl mb-1">About:</h1>
+          <h1 class="text-2xl mb-1">使用说明:</h1>
           <p class="mb-4">
-            The Local Weather allows you to track the current and
-            future weather of cities of your choosing.
+            本地天气允许您跟踪所选城市的当前和未来天气。
           </p>
-          <h2 class="text-2xl">How it works:</h2>
+          <h2 class="text-2xl">如何使用:</h2>
           <ol class="list-decimal list-inside mb-4">
             <li>
-              Search for your city by entering the name into the
-              search bar.
+              通过在搜索栏中输入名称来搜索您的城市。
             </li>
             <li>
-              Select a city within the results, this will take
-              you to the current weather for your selection.
+              在结果中选择一个城市，这将带您选择当前的天气。
             </li>
             <li>
-              Track the city by clicking on the "+" icon in the
-              top right. This will save the city to view at a
-              later time on the home page.
+              通过单击右上角的“+”图标来跟踪城市。这将保存城市，以便稍后在主页上查看。
             </li>
           </ol>
 
-          <h2 class="text-2xl">Removing a city</h2>
+          <h2 class="text-2xl">移除城市</h2>
           <p>
-            If you no longer wish to track a city, simply select
-            the city within the home page. At the bottom of the
-            page, there will be am option to delete the city.
+            如果您不再希望跟踪某个城市，只需在主页中选择该城市即可。在页面底部，将有删除城市的选项。
           </p>
         </div>
       </BaseModel>

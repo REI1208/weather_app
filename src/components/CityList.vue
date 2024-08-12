@@ -3,7 +3,7 @@
         <CityCard :city="city" @click="goToCityView(city)" />
     </div>
     <p v-if="savedCities.length === 0">
-        列表中暂时没有保存城市，请选择城市进行保存
+        天气列表中暂时没有保存的城市，请在天气界面点击右上角的加号保存到城市列表
     </p>
 </template>
 
