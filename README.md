@@ -1,29 +1,6 @@
-# vue-project
+# 天气应用
+技术栈：Vue3+vite+axios
+学习vue3时的练手项目，主要实现了一个web端的天气的应用，调用的是OpenWeather的Api接口
 
-This template should help get you started developing with Vue 3 in Vite.
+预览地址：stayindie.stie
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
